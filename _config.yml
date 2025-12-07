@@ -1,0 +1,15 @@
+title: "Bhuvaneswaran - Data Scientist"
+description: "Portfolio and projects of a Data Scientist specializing in ML & Analytics."
+baseurl: ""
+url: "https://bhuvaneswaran21.github.io/"
+
+theme: minima
+
+author:
+  name: "Bhuvaneswaran"
+  email: "bhuvansekar001@gmail.com"
+
+header_pages:
+  - index.md
+  - projects.md
+  - about.md
