@@ -178,5 +178,5 @@ export const DATA = {
     },
   ],
 
-  hackathons: [], // You can keep this empty or I can add DS hackathons if you want
+  hackathons: [] as any[], // You can keep this empty or I can add DS hackathons if you want
 } as const;
