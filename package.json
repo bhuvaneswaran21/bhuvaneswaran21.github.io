@@ -1,13 +1,17 @@
 {
+  "homepage": "https://github.com/bhuvaneswaran21/bhuvaneswaran21.github.io",
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "export": "next export",
+  "predeploy": "pnpm build && pnpm export",
+  "deploy": "main -d out"
+},
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.6",
     "@radix-ui/react-icons": "^1.3.2",
